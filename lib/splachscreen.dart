@@ -1,3 +1,4 @@
+
 import 'dart:math';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -8,6 +9,10 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:timebuddy/main.dart';
+import 'package:timebuddy/model.dart';
+import 'package:timebuddy/screens/admin.dart';
+import 'package:timebuddy/screens/intern.dart';
+import 'package:timebuddy/screens/login.dart';
 import 'firebase_options.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -95,3 +100,4 @@ class _SplashScreenState extends State<SplashScreen> {
     );
   }
 }
+
